@@ -14,7 +14,7 @@ const routes: Routes = [
   {path: "profile", component: ProfileComponent, children:[
     {path: "default", component: DefaultComponent},
     {path: "addInvitation", component: AddInvitationComponent},
-    {path: "invitaionDetails", component: InvitationDetailsComponent},
+    {path: "invitationDetails", component: InvitationDetailsComponent},
     {path: "mealRequest", component: MealRequestComponent}
   ]},
   {path: "", redirectTo: "login", pathMatch: "full"}
